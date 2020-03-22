@@ -8,6 +8,16 @@
  */
 
 // Your code:
+const capitalize = (s) => {
+    if (typeof s !== 'string') {
+        return ''}
+    elseif 
+    { return s.charAt(0).toLocaleLowerCase()
+  }
+    else {
+    return s.charAt(0).toLocaleUpperCase() + s.slice(1)
+  }
+
 
 //* Begin of tests
 const assert = require('assert');

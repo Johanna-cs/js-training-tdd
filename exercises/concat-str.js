@@ -7,12 +7,14 @@
  */
 
 // Your code:
-
+const concatStr = (`a`, `b`) => `a`+`b`
+const test = concatStr ('yolo', 'swag')
+console.log(test)
 //* Begin of tests
-const assert = require('assert');
+// const assert = require('assert');
 
-assert.strictEqual(typeof concatStr, 'function', 'Should be a function');
-assert.strictEqual(concatStr.length, 2, 'Should takes 2 arguments');
-assert.strictEqual(concatStr('a', 'b'), 'ab');
-assert.strictEqual(concatStr('yolo', 'swag'), 'yoloswag');
+// assert.strictEqual(typeof concatStr, 'function', 'Should be a function');
+// assert.strictEqual(concatStr.length, 2, 'Should takes 2 arguments');
+// assert.strictEqual(concatStr('a', 'b'), 'ab');
+// assert.strictEqual(concatStr('yolo', 'swag'), 'yoloswag');
 // End of tests */

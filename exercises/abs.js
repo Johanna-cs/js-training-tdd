@@ -10,6 +10,7 @@
  */
 
 // Your code:
+function abs
 
 //* Begin of tests
 const assert = require('assert');
