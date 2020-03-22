@@ -8,8 +8,8 @@
 
 // Your code:
 const add = (a, b) => a + b
-const result = add(2, 2) 
-console.log(result)
+return add(2, 2) 
+
 
 //* Begin of tests
 const assert = require('assert');
