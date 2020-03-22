@@ -9,6 +9,9 @@
  */
 
 // Your code:
+function multiply (a, b) {
+    return ("i").repeat(a).repeat(b).length 
+}
 
 //* Begin of tests
 const assert = require('assert');
