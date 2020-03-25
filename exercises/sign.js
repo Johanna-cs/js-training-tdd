@@ -11,8 +11,14 @@
  */
 
 // Your code:
-function sign (a) {
-        return a >= 0 ? a : - a
+const sign = (a) =>{
+    if (a === 0){
+        return 0
+    } else if (a <= 0){
+        return -1
+    } else if (a >= 0){
+        return 1
+    }
 }
 
 //* Begin of tests
