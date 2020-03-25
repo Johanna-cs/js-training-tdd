@@ -11,6 +11,9 @@
  */
 
 // Your code:
+function sign (a) {
+        return a >= 0 ? a : - a
+}
 
 //* Begin of tests
 const assert = require('assert');

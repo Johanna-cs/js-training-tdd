@@ -7,7 +7,8 @@
  */
 
 // Your code:
-
+function total [
+]
 //* Begin of tests
 const assert = require('assert');
 

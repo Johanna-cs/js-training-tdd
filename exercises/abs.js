@@ -11,9 +11,15 @@
 
 // Your code:
 function abs (a) {
-    if (a >= 0 && a == 0) {
-        return true
-    }
+    if (a >= 0 ) 
+        return a ;
+    
+    else if (a == 0)
+        return true ;
+          
+    else (a < 0) 
+        return - a
+    
 }
 
 
