@@ -7,9 +7,12 @@
  */
 
 // Your code:
-function total ([1]) {
-    return arr.reduce(Math.sum)}
-  
+
+function total (arr) {
+    for (let i=0; i < arr.length; i++ );
+    }
+return total
+    
 //* Begin of tests
 const assert = require('assert');
 
